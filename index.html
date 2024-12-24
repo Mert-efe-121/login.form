@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a login form">
+    <meta name="author" content="mert efe">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Login Form</title>
+</head>
+<body>
+    <main>
+        <section class="login-container">
+            <h2>Login Form</h2>
+            <form id="login-form" action="https://github.com/Mert-efe-121" method="get">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="8" required>
+                <br>
+                <label for="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    Remember Me
+                </label>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
